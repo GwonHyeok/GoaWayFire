@@ -1,10 +1,10 @@
 {
   "init_cfg": {
-    "isLandscape": true,
+    "isLandscape": false,
     "isWindowTop": false,
     "name": "PrebuiltRuntimeJs",
-    "width": 1136,
-    "height": 640,
+    "width": 1080,
+    "height": 1920,
     "entry": "main.js",
     "consolePort": 6050,
     "uploadPort": 6060,
