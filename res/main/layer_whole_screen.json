@@ -1,0 +1,197 @@
+{
+  "ID": "2fd5472d-437f-47f6-a591-75e4b684f61d",
+  "Version": "2.2.8.0",
+  "Name": "layer_whole_screen",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 64,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../common/bg/bg_stage_1_2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 342.4272,
+              "Y": -34.682
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.535,
+              "Y": -0.0361
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -306.5728,
+            "RightMargin": -351.4272,
+            "TopMargin": 26.682,
+            "BottomMargin": -1002.682,
+            "Tag": 113,
+            "ActionTag": 410113506,
+            "Size": {
+              "X": 1298.0,
+              "Y": 1936.0
+            },
+            "Name": "iv_background_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "node_fire_light_wood.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 413.8828,
+              "Y": -327.964
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.6467,
+              "Y": -0.3416
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 413.8828,
+            "RightMargin": 226.1172,
+            "TopMargin": 1287.964,
+            "BottomMargin": -327.964,
+            "Tag": 227,
+            "ActionTag": 1942666416,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "node_fire",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../common/bg/bg_stage_1_1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 351.9192,
+              "Y": -407.2765
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5499,
+              "Y": -0.4242
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -220.5808,
+            "RightMargin": -284.4192,
+            "TopMargin": 717.2765,
+            "BottomMargin": -1057.2765,
+            "Tag": 71,
+            "ActionTag": 2077813020,
+            "Size": {
+              "X": 1145.0,
+              "Y": 1300.0
+            },
+            "Name": "iv_background_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "node_title.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -348.9,
+              "Y": -199.8319
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": -0.5452,
+              "Y": -0.2082
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -348.9,
+            "RightMargin": 988.9,
+            "TopMargin": 1159.8319,
+            "BottomMargin": -199.8319,
+            "Tag": 424,
+            "ActionTag": 878302058,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "node_title",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 960.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}

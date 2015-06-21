@@ -1,0 +1,107 @@
+{
+  "ID": "9f08326a-0411-4dbe-8851-4952e52c3873",
+  "Version": "2.2.8.0",
+  "Name": "node_text_tap_to_start",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": -825660197,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 120.7593,
+                "Y": 369.1249,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -825660197,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 2
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 448,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/obj/obj_text_tap_to_start.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 120.7593,
+              "Y": 369.1249
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -110.7407,
+            "RightMargin": -352.2593,
+            "TopMargin": -401.1249,
+            "BottomMargin": 337.1249,
+            "Tag": 449,
+            "ActionTag": -825660197,
+            "Size": {
+              "X": 463.0,
+              "Y": 64.0
+            },
+            "Name": "iv_text_tap_to_start",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Node"
+}

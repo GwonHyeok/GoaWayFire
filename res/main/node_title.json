@@ -1,0 +1,310 @@
+{
+  "ID": "7e876186-9628-4f4d-9c89-8ae64c2263d1",
+  "Version": "2.2.8.0",
+  "Name": "node_title",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 50,
+        "Speed": 1.0,
+        "Timelines": [
+          {
+            "ActionTag": 2076352549,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": -280.0,
+                "Y": 630.0,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 422.9949,
+                "Y": 617.9995,
+                "FrameIndex": 40,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -2093511666,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": -208.2447,
+                "Y": 607.0,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 480.3224,
+                "Y": 607.0,
+                "FrameIndex": 50,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1232391375,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": -300.0063,
+                "Y": 770.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 2
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 400.0,
+                "Y": 770.0,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 570333311,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": -276.6677,
+                "Y": 774.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 430.0,
+                "Y": 771.0001,
+                "FrameIndex": 30,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 285,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/obj/obj_main_title_2_bar.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -280.0,
+              "Y": 630.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -595.0,
+            "RightMargin": -35.0,
+            "TopMargin": -697.0,
+            "BottomMargin": 563.0,
+            "Tag": 288,
+            "ActionTag": 2076352549,
+            "Size": {
+              "X": 630.0,
+              "Y": 134.0
+            },
+            "Name": "iv_main_title_2_bar",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/obj/obj_main_title_2_text.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -208.2447,
+              "Y": 607.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -426.7447,
+            "RightMargin": -10.2553,
+            "TopMargin": -643.5,
+            "BottomMargin": 570.5,
+            "Tag": 289,
+            "ActionTag": -2093511666,
+            "Size": {
+              "X": 437.0,
+              "Y": 73.0
+            },
+            "Name": "iv_main_title_2_text",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/obj/obj_main_title_1_bar.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.4833,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -300.0063,
+              "Y": 770.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -589.9863,
+            "RightMargin": -10.0137,
+            "TopMargin": -880.0,
+            "BottomMargin": 660.0,
+            "Tag": 286,
+            "ActionTag": 1232391375,
+            "Size": {
+              "X": 600.0,
+              "Y": 220.0
+            },
+            "Name": "iv_main_title_1_bar",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/obj/obj_main_title_1_text.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -276.6677,
+              "Y": 774.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -506.1677,
+            "RightMargin": 47.1677,
+            "TopMargin": -857.5,
+            "BottomMargin": 690.5,
+            "Tag": 287,
+            "ActionTag": 570333311,
+            "Size": {
+              "X": 459.0,
+              "Y": 167.0
+            },
+            "Name": "iv_main_title_2_text",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Node"
+}

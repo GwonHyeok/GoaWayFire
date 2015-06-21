@@ -1,0 +1,151 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "2.2.8.0",
+  "Name": "scene_mainscene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "layer_whole_screen.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 149.8573,
+              "Y": 986.6773
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.1388,
+              "Y": 0.5139
+            },
+            "PreSize": {
+              "X": 0.5926,
+              "Y": 0.5
+            },
+            "LeftMargin": 149.8573,
+            "RightMargin": 290.1427,
+            "TopMargin": -26.6772,
+            "BottomMargin": 986.6773,
+            "Tag": 526,
+            "ActionTag": 1073292297,
+            "Size": {
+              "X": 640.0,
+              "Y": 960.0
+            },
+            "Name": "layer_whole_screen_and_title",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "layer_button_group.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 2.5405,
+              "Y": 54.5152
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0024,
+              "Y": 0.0284
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 2.5405,
+            "RightMargin": -2.5405,
+            "TopMargin": -54.5153,
+            "BottomMargin": 54.5152,
+            "Tag": 176,
+            "ActionTag": -988259147,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "layer_button_group",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "res/obj/obj_text_tap_to_start.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 556.3183,
+              "Y": 547.5878
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5151,
+              "Y": 0.2852
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 324.8183,
+            "RightMargin": 292.1817,
+            "TopMargin": 1340.4121,
+            "BottomMargin": 515.5878,
+            "Tag": 493,
+            "ActionTag": 440130111,
+            "Size": {
+              "X": 463.0,
+              "Y": 64.0
+            },
+            "Name": "node_text",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}
