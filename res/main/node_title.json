@@ -97,7 +97,7 @@
                 "ctype": "PointFrameData"
               },
               {
-                "X": 430.0,
+                "X": 450.0,
                 "Y": 771.0001,
                 "FrameIndex": 30,
                 "EasingData": {
@@ -220,7 +220,7 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": -300.0063,
+              "X": 111.4471,
               "Y": 770.0
             },
             "Scale": {
@@ -237,8 +237,8 @@
               "X": 0.0,
               "Y": 0.0
             },
-            "LeftMargin": -589.9863,
-            "RightMargin": -10.0137,
+            "LeftMargin": -178.5329,
+            "RightMargin": -421.4671,
             "TopMargin": -880.0,
             "BottomMargin": 660.0,
             "Tag": 286,
@@ -265,8 +265,8 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": -276.6677,
-              "Y": 774.0
+              "X": -82.8896,
+              "Y": 773.2
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -282,17 +282,17 @@
               "X": 0.0,
               "Y": 0.0
             },
-            "LeftMargin": -506.1677,
-            "RightMargin": 47.1677,
-            "TopMargin": -857.5,
-            "BottomMargin": 690.5,
+            "LeftMargin": -312.3896,
+            "RightMargin": -146.6104,
+            "TopMargin": -856.7,
+            "BottomMargin": 689.7,
             "Tag": 287,
             "ActionTag": 570333311,
             "Size": {
               "X": 459.0,
               "Y": 167.0
             },
-            "Name": "iv_main_title_2_text",
+            "Name": "iv_main_title_1_text",
             "ctype": "SpriteObjectData"
           }
         ],
