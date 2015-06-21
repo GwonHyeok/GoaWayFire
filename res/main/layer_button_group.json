@@ -5,7 +5,7 @@
   "Content": {
     "Content": {
       "Animation": {
-        "Duration": 140,
+        "Duration": 120,
         "Speed": 1.0,
         "Timelines": [
           {
@@ -15,7 +15,7 @@
               {
                 "X": 188.0566,
                 "Y": -186.76,
-                "FrameIndex": 60,
+                "FrameIndex": 40,
                 "EasingData": {
                   "Type": 24
                 },
@@ -24,7 +24,7 @@
               {
                 "X": 188.0566,
                 "Y": 286.76,
-                "FrameIndex": 100,
+                "FrameIndex": 80,
                 "EasingData": {
                   "Type": 27
                 },
@@ -40,7 +40,7 @@
               {
                 "X": 545.1696,
                 "Y": -220.73,
-                "FrameIndex": 80,
+                "FrameIndex": 60,
                 "EasingData": {
                   "Type": 27
                 },
@@ -49,7 +49,7 @@
               {
                 "X": 545.1696,
                 "Y": 259.73,
-                "FrameIndex": 120,
+                "FrameIndex": 100,
                 "EasingData": {
                   "Type": 23
                 },
@@ -65,7 +65,7 @@
               {
                 "X": 863.2817,
                 "Y": -220.73,
-                "FrameIndex": 100,
+                "FrameIndex": 80,
                 "EasingData": {
                   "Type": 24
                 },
@@ -74,7 +74,7 @@
               {
                 "X": 863.2817,
                 "Y": 259.73,
-                "FrameIndex": 140,
+                "FrameIndex": 120,
                 "EasingData": {
                   "Type": 27
                 },
