@@ -5,7 +5,7 @@
   "Content": {
     "Content": {
       "Animation": {
-        "Duration": 100,
+        "Duration": 140,
         "Speed": 1.0,
         "Timelines": [
           {
@@ -15,7 +15,7 @@
               {
                 "X": 188.0566,
                 "Y": -186.76,
-                "FrameIndex": 20,
+                "FrameIndex": 60,
                 "EasingData": {
                   "Type": 24
                 },
@@ -24,7 +24,7 @@
               {
                 "X": 188.0566,
                 "Y": 286.76,
-                "FrameIndex": 60,
+                "FrameIndex": 100,
                 "EasingData": {
                   "Type": 27
                 },
@@ -39,8 +39,8 @@
             "Frames": [
               {
                 "X": 545.1696,
-                "Y": -159.73,
-                "FrameIndex": 40,
+                "Y": -220.73,
+                "FrameIndex": 80,
                 "EasingData": {
                   "Type": 27
                 },
@@ -49,7 +49,7 @@
               {
                 "X": 545.1696,
                 "Y": 259.73,
-                "FrameIndex": 80,
+                "FrameIndex": 120,
                 "EasingData": {
                   "Type": 23
                 },
@@ -64,8 +64,8 @@
             "Frames": [
               {
                 "X": 863.2817,
-                "Y": -159.73,
-                "FrameIndex": 60,
+                "Y": -220.73,
+                "FrameIndex": 100,
                 "EasingData": {
                   "Type": 24
                 },
@@ -74,7 +74,7 @@
               {
                 "X": 863.2817,
                 "Y": 259.73,
-                "FrameIndex": 100,
+                "FrameIndex": 140,
                 "EasingData": {
                   "Type": 27
                 },
@@ -151,7 +151,7 @@
               "Y": 0.1385
             },
             "LeftMargin": 121.8322,
-            "RightMargin": 785.1677,
+            "RightMargin": 785.1678,
             "TopMargin": 1527.2656,
             "BottomMargin": 126.7344,
             "Tag": 162,
