@@ -14,7 +14,7 @@
             "Frames": [
               {
                 "X": 188.0566,
-                "Y": -186.76,
+                "Y": -206.76,
                 "FrameIndex": 40,
                 "EasingData": {
                   "Type": 24
@@ -23,7 +23,7 @@
               },
               {
                 "X": 188.0566,
-                "Y": 286.76,
+                "Y": 306.76,
                 "FrameIndex": 80,
                 "EasingData": {
                   "Type": 27
@@ -48,7 +48,7 @@
               },
               {
                 "X": 545.1696,
-                "Y": 259.73,
+                "Y": 289.73,
                 "FrameIndex": 100,
                 "EasingData": {
                   "Type": 23
@@ -73,7 +73,7 @@
               },
               {
                 "X": 863.2817,
-                "Y": 259.73,
+                "Y": 289.73,
                 "FrameIndex": 120,
                 "EasingData": {
                   "Type": 27
@@ -105,19 +105,19 @@
             },
             "PressedFileData": {
               "Type": "Normal",
-              "Path": "res/icon/ic_on_market.png",
+              "Path": "res/icon/ic_on_market_1.png",
               "Plist": ""
             },
             "NormalFileData": {
               "Type": "Normal",
-              "Path": "res/icon/ic_un_market.png",
+              "Path": "res/icon/ic_un_market_1.png",
               "Plist": ""
             },
             "Scale9Enable": true,
             "Scale9OriginX": 15,
             "Scale9OriginY": 11,
             "Scale9Width": 143,
-            "Scale9Height": 244,
+            "Scale9Height": 152,
             "OutlineColor": {
               "G": 0,
               "B": 0
@@ -134,7 +134,7 @@
             },
             "Position": {
               "X": 188.0566,
-              "Y": 286.76
+              "Y": -206.76
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -144,21 +144,75 @@
             "IconVisible": false,
             "PrePosition": {
               "X": 0.1741,
-              "Y": 0.1494
+              "Y": -0.1077
             },
             "PreSize": {
               "X": 0.1602,
-              "Y": 0.1385
+              "Y": 0.0906
             },
             "LeftMargin": 121.8322,
             "RightMargin": 785.1678,
-            "TopMargin": 1527.2656,
-            "BottomMargin": 126.7344,
+            "TopMargin": 2057.4385,
+            "BottomMargin": -311.4384,
             "Tag": 162,
+            "Children": [
+              {
+                "FontSize": 72,
+                "LabelText": "상점",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "../common/font/Hanna_ttf.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 82.1999,
+                  "Y": -44.3626
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4751,
+                  "Y": -0.255
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 20.1999,
+                "RightMargin": 28.8001,
+                "TopMargin": 181.3626,
+                "BottomMargin": -81.3626,
+                "Tag": 212,
+                "ActionTag": -1308174872,
+                "Size": {
+                  "X": 124.0,
+                  "Y": 74.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              }
+            ],
             "ActionTag": -1662996441,
             "Size": {
               "X": 173.0,
-              "Y": 266.0
+              "Y": 174.0
             },
             "Name": "button_market",
             "ctype": "ButtonObjectData"
@@ -178,19 +232,19 @@
             },
             "PressedFileData": {
               "Type": "Normal",
-              "Path": "res/icon/ic_on_rank.png",
+              "Path": "res/icon/ic_on_ranking_1.png",
               "Plist": ""
             },
             "NormalFileData": {
               "Type": "Normal",
-              "Path": "res/icon/ic_un_rank.png",
+              "Path": "res/icon/ic_un_ranking_1.png",
               "Plist": ""
             },
             "Scale9Enable": true,
             "Scale9OriginX": 15,
             "Scale9OriginY": 11,
             "Scale9Width": 143,
-            "Scale9Height": 244,
+            "Scale9Height": 152,
             "OutlineColor": {
               "G": 0,
               "B": 0
@@ -207,7 +261,7 @@
             },
             "Position": {
               "X": 545.1696,
-              "Y": 259.73
+              "Y": -220.73
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -217,21 +271,75 @@
             "IconVisible": false,
             "PrePosition": {
               "X": 0.5048,
-              "Y": 0.1353
+              "Y": -0.115
             },
             "PreSize": {
               "X": 0.1602,
-              "Y": 0.1385
+              "Y": 0.0906
             },
             "LeftMargin": 458.6696,
             "RightMargin": 448.3304,
-            "TopMargin": 1527.27,
-            "BottomMargin": 126.73,
+            "TopMargin": 2053.73,
+            "BottomMargin": -307.73,
             "Tag": 163,
+            "Children": [
+              {
+                "FontSize": 72,
+                "LabelText": "랭킹",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "../common/font/Hanna_ttf.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.4029,
+                  "ScaleY": 0.2378
+                },
+                "Position": {
+                  "X": 74.7122,
+                  "Y": -67.4742
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4319,
+                  "Y": -0.3878
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 25.5532,
+                "RightMargin": 25.4468,
+                "TopMargin": 185.071,
+                "BottomMargin": -85.071,
+                "Tag": 213,
+                "ActionTag": 420848958,
+                "Size": {
+                  "X": 122.0,
+                  "Y": 74.0
+                },
+                "Name": "Text_2",
+                "ctype": "TextObjectData"
+              }
+            ],
             "ActionTag": 1841603317,
             "Size": {
               "X": 173.0,
-              "Y": 266.0
+              "Y": 174.0
             },
             "Name": "button_ranking",
             "ctype": "ButtonObjectData"
@@ -251,19 +359,19 @@
             },
             "PressedFileData": {
               "Type": "Normal",
-              "Path": "res/icon/ic_on_setting.png",
+              "Path": "res/icon/ic_on_setting_1.png",
               "Plist": ""
             },
             "NormalFileData": {
               "Type": "Normal",
-              "Path": "res/icon/ic_un_setting.png",
+              "Path": "res/icon/ic_un_setting_1.png",
               "Plist": ""
             },
             "Scale9Enable": true,
             "Scale9OriginX": 15,
             "Scale9OriginY": 11,
             "Scale9Width": 144,
-            "Scale9Height": 244,
+            "Scale9Height": 152,
             "OutlineColor": {
               "G": 0,
               "B": 0
@@ -280,7 +388,7 @@
             },
             "Position": {
               "X": 863.2817,
-              "Y": 259.73
+              "Y": -220.73
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -290,21 +398,75 @@
             "IconVisible": false,
             "PrePosition": {
               "X": 0.7993,
-              "Y": 0.1353
+              "Y": -0.115
             },
             "PreSize": {
               "X": 0.1611,
-              "Y": 0.1385
+              "Y": 0.0906
             },
             "LeftMargin": 776.2817,
             "RightMargin": 129.7183,
-            "TopMargin": 1527.27,
-            "BottomMargin": 126.73,
+            "TopMargin": 2053.73,
+            "BottomMargin": -307.73,
             "Tag": 164,
+            "Children": [
+              {
+                "FontSize": 72,
+                "LabelText": "설정",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "../common/font/Hanna_ttf.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 86.3312,
+                  "Y": -48.071
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4962,
+                  "Y": -0.2763
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 25.3312,
+                "RightMargin": 26.6688,
+                "TopMargin": 185.071,
+                "BottomMargin": -85.071,
+                "Tag": 214,
+                "ActionTag": 1923525073,
+                "Size": {
+                  "X": 122.0,
+                  "Y": 74.0
+                },
+                "Name": "Text_3",
+                "ctype": "TextObjectData"
+              }
+            ],
             "ActionTag": -1673630047,
             "Size": {
               "X": 174.0,
-              "Y": 266.0
+              "Y": 174.0
             },
             "Name": "button_setting",
             "ctype": "ButtonObjectData"

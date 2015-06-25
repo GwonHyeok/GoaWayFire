@@ -1,0 +1,764 @@
+{
+  "ID": "69d87c55-f91c-496e-84da-3f892cbb5a43",
+  "Version": "2.2.8.0",
+  "Name": "scene_select_stage_1",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 240,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/bg/bg_select_stage_1bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 529.9993,
+              "Y": 865.9954
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4907,
+              "Y": 0.451
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -42.5007,
+            "RightMargin": -22.4993,
+            "TopMargin": 7.5046,
+            "BottomMargin": -180.5046,
+            "Tag": 269,
+            "ActionTag": -304241915,
+            "Size": {
+              "X": 1145.0,
+              "Y": 2093.0
+            },
+            "Name": "iv_select_stage_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/layer_back_button.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -18.8794,
+              "Y": 1542.5999
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": -0.0175,
+              "Y": 0.8034
+            },
+            "PreSize": {
+              "X": 0.463,
+              "Y": 0.2604
+            },
+            "LeftMargin": -18.8794,
+            "RightMargin": 598.8794,
+            "TopMargin": -122.5999,
+            "BottomMargin": 1542.5999,
+            "Tag": 306,
+            "ActionTag": 1650144334,
+            "Size": {
+              "X": 500.0,
+              "Y": 500.0
+            },
+            "Name": "layer_bt_back",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FontSize": 100,
+            "LabelText": "불의 발견",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 434.9697,
+              "Y": 1792.5994
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4027,
+              "Y": 0.9336
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 258.4697,
+            "RightMargin": 468.5303,
+            "TopMargin": 75.9006,
+            "BottomMargin": 1741.0994,
+            "Tag": 319,
+            "ActionTag": -1459203753,
+            "Size": {
+              "X": 353.0,
+              "Y": 103.0
+            },
+            "Name": "text_found_fire",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 80,
+            "ButtonText": "1",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_on_button.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_un_button.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 169,
+            "Scale9Height": 176,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5099,
+              "ScaleY": 0.513
+            },
+            "Position": {
+              "X": 161.1367,
+              "Y": 1503.9418
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1492,
+              "Y": 0.7833
+            },
+            "PreSize": {
+              "X": 0.1843,
+              "Y": 0.1031
+            },
+            "LeftMargin": 59.6666,
+            "RightMargin": 821.3334,
+            "TopMargin": 319.6322,
+            "BottomMargin": 1402.3678,
+            "Tag": 320,
+            "ActionTag": -1403831644,
+            "Size": {
+              "X": 199.0,
+              "Y": 198.0
+            },
+            "Name": "bt_1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 80,
+            "ButtonText": "2",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/lock_button.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_on_button.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_un_button.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 169,
+            "Scale9Height": 176,
+            "DisplayState": false,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5099,
+              "ScaleY": 0.513
+            },
+            "Position": {
+              "X": 417.6639,
+              "Y": 1503.9418
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3867,
+              "Y": 0.7833
+            },
+            "PreSize": {
+              "X": 0.1843,
+              "Y": 0.1031
+            },
+            "LeftMargin": 316.1938,
+            "RightMargin": 564.8062,
+            "TopMargin": 319.6322,
+            "BottomMargin": 1402.3678,
+            "Tag": 329,
+            "ActionTag": 989476414,
+            "Size": {
+              "X": 199.0,
+              "Y": 198.0
+            },
+            "Name": "bt_2",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 80,
+            "ButtonText": "3",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/lock_button.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_on_button.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_un_button.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 169,
+            "Scale9Height": 176,
+            "DisplayState": false,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5099,
+              "ScaleY": 0.513
+            },
+            "Position": {
+              "X": 674.1911,
+              "Y": 1503.9418
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6243,
+              "Y": 0.7833
+            },
+            "PreSize": {
+              "X": 0.1843,
+              "Y": 0.1031
+            },
+            "LeftMargin": 572.721,
+            "RightMargin": 308.279,
+            "TopMargin": 319.6322,
+            "BottomMargin": 1402.3678,
+            "Tag": 332,
+            "ActionTag": 648418169,
+            "Size": {
+              "X": 199.0,
+              "Y": 198.0
+            },
+            "Name": "bt_3",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 80,
+            "ButtonText": "4",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/lock_button.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_on_button.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_un_button.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 169,
+            "Scale9Height": 176,
+            "DisplayState": false,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5099,
+              "ScaleY": 0.513
+            },
+            "Position": {
+              "X": 930.7183,
+              "Y": 1503.9418
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8618,
+              "Y": 0.7833
+            },
+            "PreSize": {
+              "X": 0.1843,
+              "Y": 0.1031
+            },
+            "LeftMargin": 829.2482,
+            "RightMargin": 51.7517,
+            "TopMargin": 319.6322,
+            "BottomMargin": 1402.3678,
+            "Tag": 333,
+            "ActionTag": -626826141,
+            "Size": {
+              "X": 199.0,
+              "Y": 198.0
+            },
+            "Name": "bt_4",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 80,
+            "ButtonText": "5",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/lock_button.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_on_button.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_un_button.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 169,
+            "Scale9Height": 176,
+            "DisplayState": false,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.4481,
+              "ScaleY": 0.5594
+            },
+            "Position": {
+              "X": 161.1399,
+              "Y": 1263.6111
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1492,
+              "Y": 0.6581
+            },
+            "PreSize": {
+              "X": 0.1843,
+              "Y": 0.1031
+            },
+            "LeftMargin": 71.968,
+            "RightMargin": 809.032,
+            "TopMargin": 569.1501,
+            "BottomMargin": 1152.8499,
+            "Tag": 338,
+            "ActionTag": 1990254857,
+            "Size": {
+              "X": 199.0,
+              "Y": 198.0
+            },
+            "Name": "bt_5",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 80,
+            "ButtonText": "6",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/lock_button.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_on_button.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_un_button.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 169,
+            "Scale9Height": 176,
+            "DisplayState": false,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5099,
+              "ScaleY": 0.513
+            },
+            "Position": {
+              "X": 417.0511,
+              "Y": 1254.4187
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3862,
+              "Y": 0.6533
+            },
+            "PreSize": {
+              "X": 0.1843,
+              "Y": 0.1031
+            },
+            "LeftMargin": 315.581,
+            "RightMargin": 565.419,
+            "TopMargin": 569.1553,
+            "BottomMargin": 1152.8447,
+            "Tag": 335,
+            "ActionTag": 1040484785,
+            "Size": {
+              "X": 199.0,
+              "Y": 198.0
+            },
+            "Name": "bt_6",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 80,
+            "ButtonText": "7",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/lock_button.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_on_button.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_un_button.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 169,
+            "Scale9Height": 176,
+            "DisplayState": false,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5099,
+              "ScaleY": 0.513
+            },
+            "Position": {
+              "X": 674.19,
+              "Y": 1254.4187
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6242,
+              "Y": 0.6533
+            },
+            "PreSize": {
+              "X": 0.1843,
+              "Y": 0.1031
+            },
+            "LeftMargin": 572.7199,
+            "RightMargin": 308.2801,
+            "TopMargin": 569.1553,
+            "BottomMargin": 1152.8447,
+            "Tag": 336,
+            "ActionTag": 1871112291,
+            "Size": {
+              "X": 199.0,
+              "Y": 198.0
+            },
+            "Name": "bt_7",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 80,
+            "ButtonText": "8",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/lock_button.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_on_button.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_un_button.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 169,
+            "Scale9Height": 176,
+            "DisplayState": false,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5099,
+              "ScaleY": 0.513
+            },
+            "Position": {
+              "X": 930.7199,
+              "Y": 1254.4187
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8618,
+              "Y": 0.6533
+            },
+            "PreSize": {
+              "X": 0.1843,
+              "Y": 0.1031
+            },
+            "LeftMargin": 829.2498,
+            "RightMargin": 51.7502,
+            "TopMargin": 569.1553,
+            "BottomMargin": 1152.8447,
+            "Tag": 337,
+            "ActionTag": 1265268258,
+            "Size": {
+              "X": 199.0,
+              "Y": 198.0
+            },
+            "Name": "bt_8",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

@@ -7,40 +7,7 @@
       "Animation": {
         "Duration": 0,
         "Speed": 1.0,
-        "Timelines": [
-          {
-            "ActionTag": -825660197,
-            "Property": "Position",
-            "Frames": [
-              {
-                "X": 120.7593,
-                "Y": 369.1249,
-                "FrameIndex": 0,
-                "EasingData": {
-                  "Type": 0
-                },
-                "ctype": "PointFrameData"
-              }
-            ],
-            "ctype": "TimelineData"
-          },
-          {
-            "ActionTag": -825660197,
-            "Property": "RotationSkew",
-            "Frames": [
-              {
-                "X": 0.0,
-                "Y": 0.0,
-                "FrameIndex": 0,
-                "EasingData": {
-                  "Type": 2
-                },
-                "ctype": "ScaleValueFrameData"
-              }
-            ],
-            "ctype": "TimelineData"
-          }
-        ],
+        "Timelines": [],
         "ctype": "TimelineActionData"
       },
       "AnimationList": [],
@@ -48,22 +15,29 @@
         "Tag": 448,
         "Children": [
           {
-            "FileData": {
+            "FontSize": 55,
+            "LabelText": "터치하여 시작하세요",
+            "FontResource": {
               "Type": "Normal",
-              "Path": "res/obj/obj_text_tap_to_start.png",
+              "Path": "../common/font/NanumBarunGothicBold.ttf",
               "Plist": ""
             },
-            "BlendFunc": {
-              "Src": 1,
-              "Dst": 771
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
             },
             "AnchorPoint": {
               "ScaleX": 0.5,
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 120.7593,
-              "Y": 369.1249
+              "X": -5.318,
+              "Y": 7.1274
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -79,18 +53,18 @@
               "X": 0.0,
               "Y": 0.0
             },
-            "LeftMargin": -110.7407,
-            "RightMargin": -352.2593,
-            "TopMargin": -401.1249,
-            "BottomMargin": 337.1249,
-            "Tag": 449,
-            "ActionTag": -825660197,
+            "LeftMargin": -231.818,
+            "RightMargin": -221.182,
+            "TopMargin": -38.6274,
+            "BottomMargin": -24.3726,
+            "Tag": 95,
+            "ActionTag": -1478517114,
             "Size": {
-              "X": 463.0,
-              "Y": 64.0
+              "X": 453.0,
+              "Y": 63.0
             },
-            "Name": "iv_text_tap_to_start",
-            "ctype": "SpriteObjectData"
+            "Name": "node_tap_to_start",
+            "ctype": "TextObjectData"
           }
         ],
         "Size": {

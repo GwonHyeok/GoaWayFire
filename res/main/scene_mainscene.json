@@ -16,14 +16,59 @@
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "layer_whole_screen.json",
+              "Path": "../common/bg/bg_stage_1_2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 479.9983,
+              "Y": 964.999
+            },
+            "Scale": {
+              "ScaleX": 1.0154,
+              "ScaleY": 1.0154
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4444,
+              "Y": 0.5026
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -169.0017,
+            "RightMargin": -48.9983,
+            "TopMargin": -12.999,
+            "BottomMargin": -3.001,
+            "Tag": 55,
+            "ActionTag": -747362961,
+            "Size": {
+              "X": 1298.0,
+              "Y": 1936.0
+            },
+            "Name": "bg_stage_1_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../common/node_fire_light_wood.json",
               "Plist": ""
             },
             "InnerActionSpeed": 1.0,
             "AnchorPoint": {},
             "Position": {
-              "X": 149.8573,
-              "Y": 986.6773
+              "X": 565.7971,
+              "Y": 631.5271
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -32,56 +77,101 @@
             "CColor": {},
             "IconVisible": true,
             "PrePosition": {
-              "X": 0.1388,
-              "Y": 0.5139
+              "X": 0.5239,
+              "Y": 0.3289
             },
             "PreSize": {
-              "X": 0.5926,
-              "Y": 0.5
+              "X": 0.0,
+              "Y": 0.0
             },
-            "LeftMargin": 149.8573,
-            "RightMargin": 290.1427,
-            "TopMargin": -26.6772,
-            "BottomMargin": 986.6773,
-            "Tag": 526,
-            "ActionTag": 1073292297,
+            "LeftMargin": 565.7971,
+            "RightMargin": 514.2029,
+            "TopMargin": 1288.4729,
+            "BottomMargin": 631.5271,
+            "Tag": 72,
+            "ActionTag": -1118963656,
             "Size": {
-              "X": 640.0,
-              "Y": 960.0
+              "X": 0.0,
+              "Y": 0.0
             },
-            "Name": "layer_whole_screen_and_title",
+            "Name": "node_fire_light_wood",
             "ctype": "ProjectNodeObjectData"
           },
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "layer_button_group.json",
+              "Path": "../common/bg/bg_stage_1_1.png",
               "Plist": ""
             },
-            "InnerActionSpeed": 1.0,
-            "AnchorPoint": {},
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
             "Position": {
-              "X": 2.5405,
-              "Y": 54.5152
+              "X": 539.9995,
+              "Y": 574.9993
             },
             "Scale": {
               "ScaleX": 1.0,
               "ScaleY": 1.0
             },
             "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.2995
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -32.5005,
+            "RightMargin": -32.4995,
+            "TopMargin": 695.0007,
+            "BottomMargin": -75.0007,
+            "Tag": 54,
+            "ActionTag": 1705946144,
+            "Size": {
+              "X": 1145.0,
+              "Y": 1300.0
+            },
+            "Name": "bg_stage_1_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../main/layer_button_group.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -17.4629,
+              "Y": -15.4858
+            },
+            "Scale": {
+              "ScaleX": 1.0185,
+              "ScaleY": 1.0156
+            },
+            "CColor": {},
             "IconVisible": true,
             "PrePosition": {
-              "X": 0.0024,
-              "Y": 0.0284
+              "X": -0.0162,
+              "Y": -0.0081
             },
             "PreSize": {
               "X": 1.0,
               "Y": 1.0
             },
-            "LeftMargin": 2.5405,
-            "RightMargin": -2.5405,
-            "TopMargin": -54.5153,
-            "BottomMargin": 54.5152,
+            "LeftMargin": -17.4629,
+            "RightMargin": 17.4629,
+            "TopMargin": 15.4858,
+            "BottomMargin": -15.4858,
             "Tag": 176,
             "ActionTag": -988259147,
             "Size": {
@@ -94,47 +184,80 @@
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "res/obj/obj_text_tap_to_start.png",
+              "Path": "../main/node_title.json",
               "Plist": ""
             },
-            "BlendFunc": {
-              "Src": 1,
-              "Dst": 771
-            },
-            "AnchorPoint": {
-              "ScaleX": 0.5,
-              "ScaleY": 0.5
-            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
             "Position": {
-              "X": 556.3183,
-              "Y": 547.5878
+              "X": -117.46,
+              "Y": 793.2925
             },
             "Scale": {
               "ScaleX": 1.0,
               "ScaleY": 1.0
             },
             "CColor": {},
-            "IconVisible": false,
+            "IconVisible": true,
             "PrePosition": {
-              "X": 0.5151,
-              "Y": 0.2852
+              "X": -0.1088,
+              "Y": 0.4132
             },
             "PreSize": {
               "X": 0.0,
               "Y": 0.0
             },
-            "LeftMargin": 324.8183,
-            "RightMargin": 292.1817,
-            "TopMargin": 1340.4121,
-            "BottomMargin": 515.5878,
-            "Tag": 493,
-            "ActionTag": 440130111,
+            "LeftMargin": -117.46,
+            "RightMargin": 1197.46,
+            "TopMargin": 1126.7075,
+            "BottomMargin": 793.2925,
+            "Tag": 176,
+            "ActionTag": 2107177711,
             "Size": {
-              "X": 463.0,
-              "Y": 64.0
+              "X": 0.0,
+              "Y": 0.0
             },
-            "Name": "node_text",
-            "ctype": "SpriteObjectData"
+            "Name": "node_title",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../main/node_text_tap_to_start.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 557.4105,
+              "Y": 556.9227
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5161,
+              "Y": 0.2901
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 557.4105,
+            "RightMargin": 522.5895,
+            "TopMargin": 1363.0773,
+            "BottomMargin": 556.9227,
+            "Tag": 104,
+            "ActionTag": 297855424,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "node_text_tap_to_start",
+            "ctype": "ProjectNodeObjectData"
           }
         ],
         "Size": {

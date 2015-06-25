@@ -1,0 +1,463 @@
+{
+  "ID": "0c3c3a39-36e4-4bfb-835e-9110f4deef52",
+  "Version": "2.2.8.0",
+  "Name": "scene_select_stage_main",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 221,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/bg/bg_select_main_background.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": -3.0728,
+              "Y": -47.7076
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0028,
+              "Y": -0.0248
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "VerticalEdge": "TopEdge",
+            "LeftMargin": -3.0728,
+            "RightMargin": 0.0728,
+            "TopMargin": -2.2924,
+            "BottomMargin": -47.7076,
+            "Tag": 222,
+            "ActionTag": 2132663411,
+            "Size": {
+              "X": 1083.0,
+              "Y": 1970.0
+            },
+            "Name": "iv_background",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 100,
+            "LabelText": "불의 발견",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 294.9702,
+              "Y": 1421.9452
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2731,
+              "Y": 0.7406
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 118.4702,
+            "RightMargin": 608.5298,
+            "TopMargin": 446.5548,
+            "BottomMargin": 1370.4452,
+            "Tag": 224,
+            "ActionTag": -815311352,
+            "Size": {
+              "X": 353.0,
+              "Y": 103.0
+            },
+            "Name": "text_found_fire",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 100,
+            "LabelText": "자연재해",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 283.4703,
+              "Y": 1026.8679
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 86,
+              "G": 86,
+              "B": 86
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2625,
+              "Y": 0.5348
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 118.4703,
+            "RightMargin": 631.5297,
+            "TopMargin": 841.6321,
+            "BottomMargin": 975.3679,
+            "Tag": 226,
+            "ActionTag": -566266817,
+            "Size": {
+              "X": 330.0,
+              "Y": 103.0
+            },
+            "Name": "text_natural_disater",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 100,
+            "LabelText": "인간의 실수-1",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 378.4702,
+              "Y": 592.7894
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 86,
+              "G": 86,
+              "B": 86
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3504,
+              "Y": 0.3087
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 118.4702,
+            "RightMargin": 441.5298,
+            "TopMargin": 1275.7106,
+            "BottomMargin": 541.2894,
+            "Tag": 227,
+            "ActionTag": -948072132,
+            "Size": {
+              "X": 520.0,
+              "Y": 103.0
+            },
+            "Name": "text_mistake_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 100,
+            "LabelText": "인간의 실수-2",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 387.4701,
+              "Y": 166.7119
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 86,
+              "G": 86,
+              "B": 86
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3588,
+              "Y": 0.0868
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 118.4701,
+            "RightMargin": 423.5299,
+            "TopMargin": 1701.7881,
+            "BottomMargin": 115.2119,
+            "Tag": 228,
+            "ActionTag": -1095056178,
+            "Size": {
+              "X": 538.0,
+              "Y": 103.0
+            },
+            "Name": "text_mistake_2",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_lock.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.322
+            },
+            "Position": {
+              "X": 903.3302,
+              "Y": 955.5935
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8364,
+              "Y": 0.4977
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 871.7742,
+            "RightMargin": 110.2258,
+            "TopMargin": 833.4065,
+            "BottomMargin": 955.5935,
+            "Tag": 229,
+            "ActionTag": -73639458,
+            "Size": {
+              "X": 98.0,
+              "Y": 131.0
+            },
+            "Name": "ic_lock_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_lock.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.322
+            },
+            "Position": {
+              "X": 903.3302,
+              "Y": 530.7081
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8364,
+              "Y": 0.2764
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 871.7742,
+            "RightMargin": 110.2258,
+            "TopMargin": 1258.2919,
+            "BottomMargin": 530.7081,
+            "Tag": 232,
+            "ActionTag": 923570929,
+            "Size": {
+              "X": 98.0,
+              "Y": 131.0
+            },
+            "Name": "ic_lock_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/res/icon/ic_lock.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.322
+            },
+            "Position": {
+              "X": 903.3302,
+              "Y": 111.1154
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8364,
+              "Y": 0.0579
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 871.7742,
+            "RightMargin": 110.2258,
+            "TopMargin": 1677.8846,
+            "BottomMargin": 111.1154,
+            "Tag": 233,
+            "ActionTag": 126110730,
+            "Size": {
+              "X": 98.0,
+              "Y": 131.0
+            },
+            "Name": "ic_lock_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../select_stage/layer_back_button.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -28.8762,
+              "Y": 1542.6
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": -0.0267,
+              "Y": 0.8034
+            },
+            "PreSize": {
+              "X": 0.463,
+              "Y": 0.2604
+            },
+            "LeftMargin": -28.8762,
+            "RightMargin": 608.8762,
+            "TopMargin": -122.6,
+            "BottomMargin": 1542.6,
+            "Tag": 300,
+            "ActionTag": -1843284527,
+            "Size": {
+              "X": 500.0,
+              "Y": 500.0
+            },
+            "Name": "layer_bt_back",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}
