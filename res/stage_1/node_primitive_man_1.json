@@ -5,17 +5,60 @@
   "Content": {
     "Content": {
       "Animation": {
-        "Duration": 105,
+        "Duration": 490,
         "Speed": 1.0,
         "Timelines": [
           {
-            "ActionTag": -1465866816,
+            "ActionTag": 339544380,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 920.0,
+                "Y": 600.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 300.0,
+                "Y": 600.0,
+                "FrameIndex": 140,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 300.0,
+                "Y": 600.0,
+                "FrameIndex": 460,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": -300.0,
+                "Y": 600.0,
+                "FrameIndex": 490,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 339544380,
             "Property": "FileData",
             "Frames": [
               {
                 "TextureFile": {
                   "Type": "Normal",
-                  "Path": "stage_1/res/obj/obj_primitive_man_1_1.png",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_1_1.png",
                   "Plist": ""
                 },
                 "FrameIndex": 0,
@@ -25,37 +68,27 @@
               {
                 "TextureFile": {
                   "Type": "Normal",
-                  "Path": "stage_1/res/obj/obj_primitive_man_1_2.png",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_1_2.png",
                   "Plist": ""
                 },
-                "FrameIndex": 15,
+                "FrameIndex": 20,
                 "Tween": false,
                 "ctype": "TextureFrameData"
               },
               {
                 "TextureFile": {
                   "Type": "Normal",
-                  "Path": "stage_1/res/obj/obj_primitive_man_1_3.png",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_1_3.png",
                   "Plist": ""
                 },
-                "FrameIndex": 30,
+                "FrameIndex": 40,
                 "Tween": false,
                 "ctype": "TextureFrameData"
               },
               {
                 "TextureFile": {
                   "Type": "Normal",
-                  "Path": "stage_1/res/obj/obj_primitive_man_1_4.png",
-                  "Plist": ""
-                },
-                "FrameIndex": 45,
-                "Tween": false,
-                "ctype": "TextureFrameData"
-              },
-              {
-                "TextureFile": {
-                  "Type": "Normal",
-                  "Path": "stage_1/res/obj/obj_primitive_man_1_5.png",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_1_4.png",
                   "Plist": ""
                 },
                 "FrameIndex": 60,
@@ -65,32 +98,700 @@
               {
                 "TextureFile": {
                   "Type": "Normal",
-                  "Path": "stage_1/res/obj/obj_primitive_man_1_6.png",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_1_5.png",
                   "Plist": ""
                 },
-                "FrameIndex": 75,
+                "FrameIndex": 80,
                 "Tween": false,
                 "ctype": "TextureFrameData"
               },
               {
                 "TextureFile": {
                   "Type": "Normal",
-                  "Path": "stage_1/res/obj/obj_primitive_man_1_7.png",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_1_6.png",
                   "Plist": ""
                 },
-                "FrameIndex": 90,
+                "FrameIndex": 100,
                 "Tween": false,
                 "ctype": "TextureFrameData"
               },
               {
                 "TextureFile": {
                   "Type": "Normal",
-                  "Path": "stage_1/res/obj/obj_primitive_man_1_8.png",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_1_7.png",
                   "Plist": ""
                 },
-                "FrameIndex": 105,
+                "FrameIndex": 120,
                 "Tween": false,
                 "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_1_8.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 140,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_1.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 150,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_2.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 190,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_3.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 200,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_4.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 210,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_3.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 220,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_4.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 230,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_3.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 240,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_4.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 250,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_3.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 260,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_4.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 270,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_3.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 280,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_4.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 290,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_3.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 300,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_4.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 310,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_3.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 320,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_4.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 330,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_3.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 340,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_4.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 350,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_3.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 360,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_4.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 370,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_3.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 380,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_4.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 390,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_3.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 400,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_4.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 410,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_3.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 420,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_2_1.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 430,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_3_1.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 460,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_3_2.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 470,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_3_3.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 480,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_3_5.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 480,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_3_4.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 490,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "../stage_1/res/obj/obj_primitive_man_3_4.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 490,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1055035087,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 310,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.02,
+                "Y": 0.02,
+                "FrameIndex": 315,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 320,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 330,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.025,
+                "Y": 0.025,
+                "FrameIndex": 335,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 340,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 350,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.04,
+                "Y": 0.04,
+                "FrameIndex": 355,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 360,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 370,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.05,
+                "Y": 0.05,
+                "FrameIndex": 375,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 380,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 390,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.06,
+                "Y": 0.06,
+                "FrameIndex": 395,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 400,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 410,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.15,
+                "Y": 0.15,
+                "FrameIndex": 415,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 420,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -77930666,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 310,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.02,
+                "Y": 0.02,
+                "FrameIndex": 315,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 320,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 330,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.025,
+                "Y": 0.025,
+                "FrameIndex": 335,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 340,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 350,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.04,
+                "Y": 0.04,
+                "FrameIndex": 355,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 360,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 370,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.05,
+                "Y": 0.05,
+                "FrameIndex": 375,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 380,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 390,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.06,
+                "Y": 0.06,
+                "FrameIndex": 395,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 400,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 410,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.15,
+                "Y": 0.15,
+                "FrameIndex": 415,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 420,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
               }
             ],
             "ctype": "TimelineData"
@@ -98,21 +799,14 @@
         ],
         "ctype": "TimelineActionData"
       },
-      "AnimationList": [
-        {
-          "StartIndex": 40,
-          "EndIndex": 80,
-          "Name": "animation0",
-          "ctype": "AnimationInfoData"
-        }
-      ],
+      "AnimationList": [],
       "ObjectData": {
         "Tag": 59,
         "Children": [
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "stage_1/res/obj/obj_primitive_man_1_1.png",
+              "Path": "../stage_1/res/obj/obj_primitive_man_3_1.png",
               "Plist": ""
             },
             "BlendFunc": {
@@ -124,8 +818,8 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 19.0,
-              "Y": 16.0
+              "X": 180.0,
+              "Y": 600.0
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -141,18 +835,85 @@
               "X": 0.0,
               "Y": 0.0
             },
-            "LeftMargin": -38.5,
-            "RightMargin": -76.5,
-            "TopMargin": -123.5,
-            "BottomMargin": -91.5,
-            "Tag": 24,
-            "ActionTag": -1465866816,
+            "LeftMargin": 96.5,
+            "RightMargin": -263.5,
+            "TopMargin": -719.5,
+            "BottomMargin": 480.5,
+            "Tag": 741,
+            "ActionTag": 339544380,
             "Size": {
-              "X": 115.0,
-              "Y": 215.0
+              "X": 167.0,
+              "Y": 239.0
             },
             "Name": "node_primitive_man",
             "ctype": "SpriteObjectData"
+          },
+          {
+            "InnerActionSpeed": 0.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 277.9867,
+              "Y": 540.9994
+            },
+            "Scale": {},
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 277.9867,
+            "RightMargin": -277.9867,
+            "TopMargin": -540.9994,
+            "BottomMargin": 540.9994,
+            "Tag": 929,
+            "ActionTag": -1055035087,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "node_fireAndLight",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../stage_1/node_fire_light.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 275.4975,
+              "Y": 542.335
+            },
+            "Scale": {},
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 275.4975,
+            "RightMargin": -275.4975,
+            "TopMargin": -542.335,
+            "BottomMargin": 542.335,
+            "Tag": 19,
+            "ActionTag": -77930666,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ProjectNode_1",
+            "ctype": "ProjectNodeObjectData"
           }
         ],
         "Size": {

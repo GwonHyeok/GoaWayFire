@@ -1,0 +1,510 @@
+{
+  "ID": "f02faf63-032b-4e43-8ad3-4afee2fd0369",
+  "Version": "2.2.8.0",
+  "Name": "layer_failed",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1075,
+        "Children": [
+          {
+            "ComboBoxIndex": 1,
+            "SingleColor": {},
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5279,
+              "ScaleY": 0.4723
+            },
+            "Position": {
+              "X": 566.4832,
+              "Y": 926.7482
+            },
+            "Scale": {
+              "ScaleX": 4.6347,
+              "ScaleY": 2.998
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5245,
+              "Y": 0.4827
+            },
+            "PreSize": {
+              "X": 0.2222,
+              "Y": 0.2222
+            },
+            "LeftMargin": 460.9032,
+            "RightMargin": 419.0969,
+            "TopMargin": 887.7118,
+            "BottomMargin": 832.2881,
+            "Tag": 1076,
+            "ActionTag": 509568798,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "bg_square_3",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 32,
+              "G": 189,
+              "B": 196
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 97.6011,
+              "Y": 666.5837
+            },
+            "Scale": {
+              "ScaleX": 4.4175,
+              "ScaleY": 2.79
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0904,
+              "Y": 0.3472
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 97.6011,
+            "RightMargin": 782.3989,
+            "TopMargin": 1053.4163,
+            "BottomMargin": 666.5837,
+            "Tag": 1077,
+            "ActionTag": 83154678,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "bg_square_2",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 239,
+              "G": 63,
+              "B": 137
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": -0.0722,
+              "ScaleY": -0.1832
+            },
+            "Position": {
+              "X": 271.181,
+              "Y": 972.3177
+            },
+            "Scale": {
+              "ScaleX": 2.3387,
+              "ScaleY": 0.802
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2511,
+              "Y": 0.5064
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 285.621,
+            "RightMargin": 594.379,
+            "TopMargin": 711.0424,
+            "BottomMargin": 1008.9577,
+            "Tag": 1078,
+            "ActionTag": 1295599569,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "bg_square_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 160,
+            "LabelText": "Failed\n",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 77,
+              "G": 77,
+              "B": 77
+            },
+            "ShadowOffsetX": 12,
+            "ShadowOffsetY": -1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 537.6448,
+              "Y": 1085.6021
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4978,
+              "Y": 0.5654
+            },
+            "PreSize": {
+              "X": 0.4689,
+              "Y": 0.1944
+            },
+            "LeftMargin": 338.6448,
+            "RightMargin": 343.3552,
+            "TopMargin": 751.8979,
+            "BottomMargin": 1003.1021,
+            "Tag": 1079,
+            "ActionTag": 985915631,
+            "Size": {
+              "X": 398.0,
+              "Y": 165.0
+            },
+            "Name": "text_failed",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "Button",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "../Default/",
+              "Path": "../Default//Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "../common/icon/ic_on_home.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "../common/icon/ic_un_home.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 95,
+            "Scale9Height": 113,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 287.9572,
+              "Y": 798.311
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2666,
+              "Y": 0.4158
+            },
+            "PreSize": {
+              "X": 0.1389,
+              "Y": 0.15
+            },
+            "LeftMargin": 225.4572,
+            "RightMargin": 729.5428,
+            "TopMargin": 1054.189,
+            "BottomMargin": 730.811,
+            "Tag": 1080,
+            "ActionTag": 161514414,
+            "Size": {
+              "X": 125.0,
+              "Y": 135.0
+            },
+            "Name": "bt_home",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "../Default/",
+              "Path": "../Default//Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "../common/icon/ic_on_market.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "../common/icon/ic_un_market.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 95,
+            "Scale9Height": 113,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 546.188,
+              "Y": 798.311
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5057,
+              "Y": 0.4158
+            },
+            "PreSize": {
+              "X": 0.1389,
+              "Y": 0.15
+            },
+            "LeftMargin": 483.688,
+            "RightMargin": 471.312,
+            "TopMargin": 1054.189,
+            "BottomMargin": 730.811,
+            "Tag": 1081,
+            "ActionTag": 1384043474,
+            "Size": {
+              "X": 125.0,
+              "Y": 135.0
+            },
+            "Name": "bt_store",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "../Default/",
+              "Path": "../Default//Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "../common/icon/ic_on_replay.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "../common/icon/ic_un_replay.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 95,
+            "Scale9Height": 113,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 787.4193,
+              "Y": 798.311
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7291,
+              "Y": 0.4158
+            },
+            "PreSize": {
+              "X": 0.1389,
+              "Y": 0.15
+            },
+            "LeftMargin": 724.9193,
+            "RightMargin": 230.0807,
+            "TopMargin": 1054.189,
+            "BottomMargin": 730.811,
+            "Tag": 1082,
+            "ActionTag": -1438064046,
+            "Size": {
+              "X": 125.0,
+              "Y": 135.0
+            },
+            "Name": "bt_replay",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 30,
+            "LabelText": "sec",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 353.0573,
+              "Y": 1144.8047
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 58,
+              "G": 58,
+              "B": 58
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3269,
+              "Y": 0.5963
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 331.5573,
+            "RightMargin": 705.4427,
+            "TopMargin": 759.6953,
+            "BottomMargin": 1129.3047,
+            "Tag": 116,
+            "ActionTag": 1140204915,
+            "Size": {
+              "X": 43.0,
+              "Y": 31.0
+            },
+            "Name": "text_sec",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}

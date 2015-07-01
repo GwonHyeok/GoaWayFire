@@ -17,17 +17,20 @@
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "../select_stage/res/bg/bg_select_main_background.png",
+              "Path": "../select_stage/res/bg/background.png",
               "Plist": ""
             },
             "BlendFunc": {
-              "Src": 770,
+              "Src": 1,
               "Dst": 771
             },
-            "AnchorPoint": {},
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
             "Position": {
-              "X": -3.0728,
-              "Y": -47.7076
+              "X": 539.6796,
+              "Y": 1796.1404
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -36,26 +39,223 @@
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": -0.0028,
-              "Y": -0.0248
+              "X": 0.4997,
+              "Y": 0.9355
             },
             "PreSize": {
               "X": 0.0,
               "Y": 0.0
             },
-            "VerticalEdge": "TopEdge",
-            "LeftMargin": -3.0728,
-            "RightMargin": 0.0728,
-            "TopMargin": -2.2924,
-            "BottomMargin": -47.7076,
-            "Tag": 222,
-            "ActionTag": 2132663411,
+            "LeftMargin": -2.3204,
+            "RightMargin": -1.6797,
+            "TopMargin": -0.6404,
+            "BottomMargin": 1671.6404,
+            "Tag": 697,
+            "ActionTag": -594913686,
             "Size": {
-              "X": 1083.0,
-              "Y": 1970.0
+              "X": 1084.0,
+              "Y": 249.0
             },
             "Name": "iv_background",
             "ctype": "SpriteObjectData"
+          },
+          {
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 16,
+              "B": 31
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -45.4648,
+              "Y": 1238.1296
+            },
+            "Scale": {
+              "ScaleX": 5.7368,
+              "ScaleY": 1.0185
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0421,
+              "Y": 0.6449
+            },
+            "PreSize": {
+              "X": 0.1852,
+              "Y": 0.2271
+            },
+            "LeftMargin": -45.4648,
+            "RightMargin": 925.4648,
+            "TopMargin": 245.8704,
+            "BottomMargin": 1238.1296,
+            "Tag": 698,
+            "ActionTag": 165771856,
+            "Size": {
+              "X": 200.0,
+              "Y": 436.0
+            },
+            "Name": "panel_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 8,
+              "G": 33,
+              "B": 48
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -45.4648,
+              "Y": 799.1459
+            },
+            "Scale": {
+              "ScaleX": 5.7368,
+              "ScaleY": 1.0185
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0421,
+              "Y": 0.4162
+            },
+            "PreSize": {
+              "X": 0.1852,
+              "Y": 0.2271
+            },
+            "LeftMargin": -45.4648,
+            "RightMargin": 925.4648,
+            "TopMargin": 684.8541,
+            "BottomMargin": 799.1459,
+            "Tag": 699,
+            "ActionTag": 1557551320,
+            "Size": {
+              "X": 200.0,
+              "Y": 436.0
+            },
+            "Name": "panel_2",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 14,
+              "G": 45,
+              "B": 61
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -45.4648,
+              "Y": 358.6947
+            },
+            "Scale": {
+              "ScaleX": 5.7368,
+              "ScaleY": 1.0185
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0421,
+              "Y": 0.1868
+            },
+            "PreSize": {
+              "X": 0.1852,
+              "Y": 0.2271
+            },
+            "LeftMargin": -45.4648,
+            "RightMargin": 925.4648,
+            "TopMargin": 1125.3053,
+            "BottomMargin": 358.6947,
+            "Tag": 700,
+            "ActionTag": -1376285978,
+            "Size": {
+              "X": 200.0,
+              "Y": 436.0
+            },
+            "Name": "panel_3",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 21,
+              "G": 63,
+              "B": 79
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -45.4648,
+              "Y": -78.0225
+            },
+            "Scale": {
+              "ScaleX": 5.7368,
+              "ScaleY": 1.0185
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0421,
+              "Y": -0.0406
+            },
+            "PreSize": {
+              "X": 0.1852,
+              "Y": 0.2271
+            },
+            "LeftMargin": -45.4648,
+            "RightMargin": 925.4648,
+            "TopMargin": 1562.0225,
+            "BottomMargin": -78.0225,
+            "Tag": 701,
+            "ActionTag": 912845309,
+            "Size": {
+              "X": 200.0,
+              "Y": 436.0
+            },
+            "Name": "panel_4",
+            "ctype": "PanelObjectData"
           },
           {
             "FontSize": 100,
@@ -79,8 +279,8 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 294.9702,
-              "Y": 1421.9452
+              "X": 294.9703,
+              "Y": 1421.9453
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -96,10 +296,10 @@
               "X": 0.0,
               "Y": 0.0
             },
-            "LeftMargin": 118.4702,
-            "RightMargin": 608.5298,
-            "TopMargin": 446.5548,
-            "BottomMargin": 1370.4452,
+            "LeftMargin": 118.4703,
+            "RightMargin": 608.5297,
+            "TopMargin": 446.5547,
+            "BottomMargin": 1370.4453,
             "Tag": 224,
             "ActionTag": -815311352,
             "Size": {

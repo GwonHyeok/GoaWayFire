@@ -1,0 +1,413 @@
+{
+  "ID": "91defe32-570f-446b-95bf-612d39c64546",
+  "Version": "2.2.8.0",
+  "Name": "layer_success",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 772,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../common/layer_failed.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 4.5909,
+              "Y": 1.1739
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0043,
+              "Y": 0.0006
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 4.5909,
+            "RightMargin": -4.5908,
+            "TopMargin": -1.1738,
+            "BottomMargin": 1.1739,
+            "Tag": 1091,
+            "ActionTag": -1399870092,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1920.0
+            },
+            "Name": "bg_background",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 239,
+              "G": 63,
+              "B": 137
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 233.7888,
+              "Y": 997.6514
+            },
+            "Scale": {
+              "ScaleX": 3.2971,
+              "ScaleY": 0.8165
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2165,
+              "Y": 0.5196
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 233.7888,
+            "RightMargin": 646.2112,
+            "TopMargin": 722.3486,
+            "BottomMargin": 997.6514,
+            "Tag": 782,
+            "ActionTag": -963831100,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "bg_square_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 160,
+            "LabelText": "Success!",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 77,
+              "G": 77,
+              "B": 77
+            },
+            "ShadowOffsetX": 12,
+            "ShadowOffsetY": -1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 563.8633,
+              "Y": 1083.4109
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5221,
+              "Y": 0.5643
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 264.8633,
+            "RightMargin": 217.1367,
+            "TopMargin": 754.0891,
+            "BottomMargin": 1000.9109,
+            "Tag": 783,
+            "ActionTag": -2123625906,
+            "Size": {
+              "X": 598.0,
+              "Y": 165.0
+            },
+            "Name": "text_success",
+            "ctype": "TextObjectData"
+          },
+          {
+            "ComboBoxIndex": 1,
+            "SingleColor": {},
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 238.378,
+              "Y": 904.1877
+            },
+            "Scale": {
+              "ScaleX": 0.7583,
+              "ScaleY": 0.3274
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2207,
+              "Y": 0.4709
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 238.378,
+            "RightMargin": 641.622,
+            "TopMargin": 815.8123,
+            "BottomMargin": 904.1877,
+            "Tag": 123,
+            "ActionTag": 694765789,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "bg_mini_square_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 60,
+            "LabelText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.2924,
+              "ScaleY": 0.2014
+            },
+            "Position": {
+              "X": 275.9519,
+              "Y": 919.5153
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 58,
+              "G": 58,
+              "B": 58
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2555,
+              "Y": 0.4789
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 275.9519,
+            "RightMargin": 804.0481,
+            "TopMargin": 1000.4847,
+            "BottomMargin": 919.5153,
+            "Tag": 124,
+            "ActionTag": -289410935,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "text_time",
+            "ctype": "TextObjectData"
+          },
+          {
+            "ComboBoxIndex": 1,
+            "SingleColor": {},
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 405.7865,
+              "Y": 904.1877
+            },
+            "Scale": {
+              "ScaleX": 0.7583,
+              "ScaleY": 0.3274
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3757,
+              "Y": 0.4709
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 405.7865,
+            "RightMargin": 474.2135,
+            "TopMargin": 815.8123,
+            "BottomMargin": 904.1877,
+            "Tag": 125,
+            "ActionTag": 1460695358,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "bg_mini_square_2",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 60,
+            "LabelText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.2924,
+              "ScaleY": 0.2014
+            },
+            "Position": {
+              "X": 452.1082,
+              "Y": 919.5153
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 58,
+              "G": 58,
+              "B": 58
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4186,
+              "Y": 0.4789
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 452.1082,
+            "RightMargin": 627.8918,
+            "TopMargin": 1000.4847,
+            "BottomMargin": 919.5153,
+            "Tag": 126,
+            "ActionTag": 1649709242,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "text_gold",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../common/layer_gold.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 471.2244,
+              "Y": 886.5049
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.4363,
+              "Y": 0.4617
+            },
+            "PreSize": {
+              "X": 0.0926,
+              "Y": 0.0521
+            },
+            "LeftMargin": 471.2244,
+            "RightMargin": 508.7756,
+            "TopMargin": 933.4951,
+            "BottomMargin": 886.5049,
+            "Tag": 127,
+            "ActionTag": -887934943,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Name": "ic_gold",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}

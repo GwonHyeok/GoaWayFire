@@ -1,3 +1,9 @@
+/**
+ * 메인 화면 관련한 소스 파일
+ * Created by GwonHyeok on 15. 6. 21s..
+ */
+var SocketIO = SocketIO || io;
+
 var AppMainLayer = cc.Layer.extend({
     ctor: function () {
         this._super();
@@ -10,12 +16,32 @@ var AppMainLayer = cc.Layer.extend({
             onTouchMoved: this.onTouchMoved
         });
         cc.eventManager.addListener(eventListener, this);
+
+        var _sioClient = SocketIO.connect("http://127.0.0.1:8080");
+
+        _sioClient.on("callClientEvent", this.callClientEvent);
+
+        _sioClient.on("connect", function () {
+            cc.log("connect called.");
+        });
+        _sioClient.on("message", function (data) {
+            cc.log(_sioClient.tag + " message received: " + data);
+        });
+        _sioClient.on("error", function () {
+            cc.log("error called..");
+        });
+
+    },
+
+    callClientEvent: function (data) {
+        var msg = "Server CallBack: " + _sioClient.tag + " Data :" + data;
+        cc.log(msg);
     },
 
     onTouchBegan: function (touch, event) {
         cc.log("onTouch Began");
 
-        cc.director.runScene(new cc.TransitionFade(1.2, new SelectStageScene()));
+        cc.director.runScene(new cc.TransitionFade(0.6, new SelectStageScene()));
         return false;
     },
 
@@ -52,24 +78,3 @@ var AppMainScene = cc.Scene.extend({
         tapToStartNode.runAction(cc.RepeatForever(pulseAnimation));
     }
 });
-
-var SelectStageScene = cc.Scene.extend({
-        onEnter: function () {
-            this._super();
-
-            var node = ccs.csLoader.createNode("res/select_stage/scene_select_stage_main.json");
-            this.addChild(node);
-
-
-            node.getChildByName("layer_bt_back")
-                .getChildByName("bt_back")
-                .addTouchEventListener(function (sender, type) {
-                    switch (type) {
-                        case ccui.Widget.TOUCH_BEGAN:
-                            cc.director.runScene(new cc.TransitionFade(1.2, new AppMainScene()));
-                            break;
-                    }
-                }, this);
-        }
-    }
-);

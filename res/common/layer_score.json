@@ -1,0 +1,229 @@
+{
+  "ID": "30ea4705-2aba-4449-bef8-2fb2b5f24f12",
+  "Version": "2.2.8.0",
+  "Name": "layer_score",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 165,
+        "Children": [
+          {
+            "FontSize": 100,
+            "LabelText": "",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Right",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 524.3926,
+              "Y": 1819.7991
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4855,
+              "Y": 0.9478
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 453.8926,
+            "RightMargin": 485.1074,
+            "TopMargin": 48.7009,
+            "BottomMargin": 1768.2991,
+            "Tag": 191,
+            "ActionTag": 390948750,
+            "Size": {
+              "X": 141.0,
+              "Y": 103.0
+            },
+            "Name": "text_time",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 75,
+            "LabelText": "\n",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Right",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 963.9884,
+              "Y": 1873.8387
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "G": 232,
+              "B": 23
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8926,
+              "Y": 0.976
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 963.9884,
+            "RightMargin": 116.0116,
+            "TopMargin": 7.6613,
+            "BottomMargin": 1835.3387,
+            "Tag": 192,
+            "ActionTag": -1319083582,
+            "Size": {
+              "X": 0.0,
+              "Y": 77.0
+            },
+            "Name": "text_gold",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../common/layer_gold.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 980.3912,
+              "Y": 1819.8354
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.9078,
+              "Y": 0.9478
+            },
+            "PreSize": {
+              "X": 0.0926,
+              "Y": 0.0521
+            },
+            "LeftMargin": 980.3912,
+            "RightMargin": -0.3911,
+            "TopMargin": 0.1646,
+            "BottomMargin": 1819.8354,
+            "Tag": 193,
+            "ActionTag": -1871818368,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Name": "node_gold",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FontSize": 60,
+            "LabelText": "sec\n",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "../common/font/BMJUA_ttf.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 643.1619,
+              "Y": 1805.343
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5955,
+              "Y": 0.9403
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 600.6619,
+            "RightMargin": 394.3381,
+            "TopMargin": 83.657,
+            "BottomMargin": 1774.343,
+            "Tag": 196,
+            "ActionTag": 1545564849,
+            "Size": {
+              "X": 85.0,
+              "Y": 62.0
+            },
+            "Name": "text_sec",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1080.0,
+          "Y": 1920.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}

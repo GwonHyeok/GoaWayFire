@@ -105,12 +105,12 @@
             },
             "PressedFileData": {
               "Type": "Normal",
-              "Path": "res/icon/ic_on_market_1.png",
+              "Path": "../main/res/icon/ic_on_market_1.png",
               "Plist": ""
             },
             "NormalFileData": {
               "Type": "Normal",
-              "Path": "res/icon/ic_un_market_1.png",
+              "Path": "../main/res/icon/ic_un_market_1.png",
               "Plist": ""
             },
             "Scale9Enable": true,
@@ -232,12 +232,12 @@
             },
             "PressedFileData": {
               "Type": "Normal",
-              "Path": "res/icon/ic_on_ranking_1.png",
+              "Path": "../main/res/icon/ic_on_ranking_1.png",
               "Plist": ""
             },
             "NormalFileData": {
               "Type": "Normal",
-              "Path": "res/icon/ic_un_ranking_1.png",
+              "Path": "../main/res/icon/ic_un_ranking_1.png",
               "Plist": ""
             },
             "Scale9Enable": true,
@@ -359,12 +359,12 @@
             },
             "PressedFileData": {
               "Type": "Normal",
-              "Path": "res/icon/ic_on_setting_1.png",
+              "Path": "../main/res/icon/ic_on_setting_1.png",
               "Plist": ""
             },
             "NormalFileData": {
               "Type": "Normal",
-              "Path": "res/icon/ic_un_setting_1.png",
+              "Path": "../main/res/icon/ic_un_setting_1.png",
               "Plist": ""
             },
             "Scale9Enable": true,
