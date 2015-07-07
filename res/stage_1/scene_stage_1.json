@@ -146,45 +146,6 @@
           {
             "FileData": {
               "Type": "Normal",
-              "Path": "../stage_1/node_primitive_man_1.json",
-              "Plist": ""
-            },
-            "InnerActionSpeed": 1.0,
-            "AnchorPoint": {},
-            "Position": {
-              "X": 275.8802,
-              "Y": 147.6221
-            },
-            "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
-            },
-            "CColor": {},
-            "IconVisible": true,
-            "PrePosition": {
-              "X": 0.2554,
-              "Y": 0.0769
-            },
-            "PreSize": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LeftMargin": 275.8802,
-            "RightMargin": 804.1198,
-            "TopMargin": 1772.3779,
-            "BottomMargin": 147.6221,
-            "Tag": 30,
-            "ActionTag": -1311218011,
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Name": "node_primitiveMan",
-            "ctype": "ProjectNodeObjectData"
-          },
-          {
-            "FileData": {
-              "Type": "Normal",
               "Path": "../common/node_handButton.json",
               "Plist": ""
             },
@@ -244,8 +205,8 @@
               "Y": 0.0
             },
             "PreSize": {
-              "X": 0.0,
-              "Y": 0.0
+              "X": 1.0,
+              "Y": 1.0
             },
             "Tag": 212,
             "ActionTag": 818475485,
@@ -254,6 +215,45 @@
               "Y": 1920.0
             },
             "Name": "layer_score",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../stage_1/node_primitive_man_1.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 275.8802,
+              "Y": 147.6221
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.2554,
+              "Y": 0.0769
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 275.8802,
+            "RightMargin": 804.1198,
+            "TopMargin": 1772.3779,
+            "BottomMargin": 147.6221,
+            "Tag": 30,
+            "ActionTag": -1311218011,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "node_primitiveMan",
             "ctype": "ProjectNodeObjectData"
           }
         ],

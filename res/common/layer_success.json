@@ -202,8 +202,93 @@
             "ctype": "PanelObjectData"
           },
           {
+            "ComboBoxIndex": 1,
+            "SingleColor": {},
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 405.7865,
+              "Y": 904.1877
+            },
+            "Scale": {
+              "ScaleX": 0.7583,
+              "ScaleY": 0.3274
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3757,
+              "Y": 0.4709
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 405.7865,
+            "RightMargin": 474.2135,
+            "TopMargin": 815.8123,
+            "BottomMargin": 904.1877,
+            "Tag": 125,
+            "ActionTag": 1460695358,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "bg_mini_square_2",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "../common/layer_gold.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 471.2244,
+              "Y": 886.5049
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.4363,
+              "Y": 0.4617
+            },
+            "PreSize": {
+              "X": 0.0926,
+              "Y": 0.0521
+            },
+            "LeftMargin": 471.2244,
+            "RightMargin": 508.7756,
+            "TopMargin": 933.4951,
+            "BottomMargin": 886.5049,
+            "Tag": 127,
+            "ActionTag": -887934943,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Name": "ic_gold",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
             "FontSize": 60,
-            "LabelText": "",
+            "LabelText": "123\n",
             "FontResource": {
               "Type": "Normal",
               "Path": "../common/font/BMJUA_ttf.ttf",
@@ -251,61 +336,15 @@
             "Tag": 124,
             "ActionTag": -289410935,
             "Size": {
-              "X": 0.0,
-              "Y": 0.0
+              "X": 93.0,
+              "Y": 62.0
             },
             "Name": "text_time",
             "ctype": "TextObjectData"
           },
           {
-            "ComboBoxIndex": 1,
-            "SingleColor": {},
-            "FirstColor": {
-              "R": 150,
-              "G": 200
-            },
-            "EndColor": {},
-            "ColorVector": {
-              "ScaleY": 1.0
-            },
-            "Scale9Width": 1,
-            "Scale9Height": 1,
-            "TouchEnable": true,
-            "AnchorPoint": {},
-            "Position": {
-              "X": 405.7865,
-              "Y": 904.1877
-            },
-            "Scale": {
-              "ScaleX": 0.7583,
-              "ScaleY": 0.3274
-            },
-            "CColor": {},
-            "IconVisible": false,
-            "PrePosition": {
-              "X": 0.3757,
-              "Y": 0.4709
-            },
-            "PreSize": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LeftMargin": 405.7865,
-            "RightMargin": 474.2135,
-            "TopMargin": 815.8123,
-            "BottomMargin": 904.1877,
-            "Tag": 125,
-            "ActionTag": 1460695358,
-            "Size": {
-              "X": 200.0,
-              "Y": 200.0
-            },
-            "Name": "bg_mini_square_2",
-            "ctype": "PanelObjectData"
-          },
-          {
             "FontSize": 60,
-            "LabelText": "",
+            "LabelText": "12\n",
             "FontResource": {
               "Type": "Normal",
               "Path": "../common/font/BMJUA_ttf.ttf",
@@ -353,50 +392,11 @@
             "Tag": 126,
             "ActionTag": 1649709242,
             "Size": {
-              "X": 0.0,
-              "Y": 0.0
+              "X": 60.0,
+              "Y": 62.0
             },
             "Name": "text_gold",
             "ctype": "TextObjectData"
-          },
-          {
-            "FileData": {
-              "Type": "Normal",
-              "Path": "../common/layer_gold.json",
-              "Plist": ""
-            },
-            "InnerActionSpeed": 1.0,
-            "AnchorPoint": {},
-            "Position": {
-              "X": 471.2244,
-              "Y": 886.5049
-            },
-            "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
-            },
-            "CColor": {},
-            "IconVisible": true,
-            "PrePosition": {
-              "X": 0.4363,
-              "Y": 0.4617
-            },
-            "PreSize": {
-              "X": 0.0926,
-              "Y": 0.0521
-            },
-            "LeftMargin": 471.2244,
-            "RightMargin": 508.7756,
-            "TopMargin": 933.4951,
-            "BottomMargin": 886.5049,
-            "Tag": 127,
-            "ActionTag": -887934943,
-            "Size": {
-              "X": 100.0,
-              "Y": 100.0
-            },
-            "Name": "ic_gold",
-            "ctype": "ProjectNodeObjectData"
           }
         ],
         "Size": {

@@ -16,7 +16,7 @@ var SelectStageScene = cc.Scene.extend({
                 .addTouchEventListener(function (sender, type) {
                     switch (type) {
                         case ccui.Widget.TOUCH_BEGAN:
-                            cc.director.runScene(new cc.TransitionFade(0.6, new AppMainScene()));
+                            cc.director.replaceScene(new cc.TransitionFade(0.6, new AppMainScene()));
                             break;
                     }
                 }, this);
@@ -25,7 +25,7 @@ var SelectStageScene = cc.Scene.extend({
                 .addTouchEventListener(function (sender, type) {
                     switch (type) {
                         case ccui.Widget.TOUCH_BEGAN:
-                            cc.director.runScene(new cc.TransitionFade(0.6, new SelectStageDetailScene_1()));
+                            cc.director.replaceScene(new cc.TransitionFade(0.6, new SelectStageDetailScene_1()));
                             break;
                     }
                 }, this);
@@ -34,7 +34,7 @@ var SelectStageScene = cc.Scene.extend({
                 .addTouchEventListener(function (sender, type) {
                     switch (type) {
                         case ccui.Widget.TOUCH_BEGAN:
-                            cc.director.runScene(new cc.TransitionFade(0.6, new SelectStageDetailScene_2()));
+                            cc.director.replaceScene(new cc.TransitionFade(0.6, new SelectStageDetailScene_2()));
                             break;
                     }
                 }, this);
@@ -43,7 +43,7 @@ var SelectStageScene = cc.Scene.extend({
                 .addTouchEventListener(function (sender, type) {
                     switch (type) {
                         case ccui.Widget.TOUCH_BEGAN:
-                            cc.director.runScene(new cc.TransitionFade(0.6, new SelectStageDetailScene_3()));
+                            cc.director.replaceScene(new cc.TransitionFade(0.6, new SelectStageDetailScene_3()));
                             break;
                     }
                 }, this);
@@ -52,7 +52,7 @@ var SelectStageScene = cc.Scene.extend({
                 .addTouchEventListener(function (sender, type) {
                     switch (type) {
                         case ccui.Widget.TOUCH_BEGAN:
-                            cc.director.runScene(new cc.TransitionFade(0.6, new SelectStageDetailScene_4()));
+                            cc.director.replaceScene(new cc.TransitionFade(0.6, new SelectStageDetailScene_4()));
                             break;
                     }
                 }, this);
@@ -78,7 +78,7 @@ var BaseSelectStageDetailScene = cc.Scene.extend({
             backButton.addTouchEventListener(function (sender, type) {
                 switch (type) {
                     case ccui.Widget.TOUCH_BEGAN:
-                        cc.director.runScene(new cc.TransitionFade(0.6, new SelectStageScene()));
+                        cc.director.replaceScene(new cc.TransitionFade(0.6, new SelectStageScene()));
                         break;
                 }
             }, backButton);
@@ -103,7 +103,7 @@ var SelectStageDetailScene_1 = BaseSelectStageDetailScene.extend({
             buttons[i].addTouchEventListener(function (sender, type) {
                 switch (type) {
                     case ccui.Widget.TOUCH_BEGAN:
-                        cc.director.runScene(new cc.TransitionFade(0.6, new AppPlayScene1_1()));
+                        cc.director.replaceScene(new cc.TransitionFade(0.6, new AppPlayScene1_1()));
                         break;
                 }
             }, buttons[i]);

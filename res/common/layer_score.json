@@ -16,7 +16,7 @@
         "Children": [
           {
             "FontSize": 100,
-            "LabelText": "",
+            "LabelText": "123",
             "FontResource": {
               "Type": "Normal",
               "Path": "../common/font/BMJUA_ttf.ttf",
@@ -61,7 +61,7 @@
             "Tag": 191,
             "ActionTag": 390948750,
             "Size": {
-              "X": 141.0,
+              "X": 155.0,
               "Y": 103.0
             },
             "Name": "text_time",
@@ -184,7 +184,7 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 643.1619,
+              "X": 650.1615,
               "Y": 1805.343
             },
             "Scale": {
@@ -194,15 +194,15 @@
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.5955,
+              "X": 0.602,
               "Y": 0.9403
             },
             "PreSize": {
               "X": 0.0,
               "Y": 0.0
             },
-            "LeftMargin": 600.6619,
-            "RightMargin": 394.3381,
+            "LeftMargin": 607.6615,
+            "RightMargin": 387.3385,
             "TopMargin": 83.657,
             "BottomMargin": 1774.343,
             "Tag": 196,

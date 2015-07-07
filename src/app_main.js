@@ -40,8 +40,8 @@ var AppMainLayer = cc.Layer.extend({
 
     onTouchBegan: function (touch, event) {
         cc.log("onTouch Began");
-
-        cc.director.runScene(new cc.TransitionFade(0.6, new SelectStageScene()));
+        cc.log("replace Scene");
+        cc.director.replaceScene(new cc.TransitionFade(0.6, new SelectStageScene()));
         return false;
     },
 

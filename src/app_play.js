@@ -98,7 +98,7 @@ var BaseAppPlayScene = cc.Scene.extend({
 
     goHome: function () {
         cc.log('goHome');
-        cc.director.runScene(new cc.TransitionFade(0.6, new AppMainScene()));
+        cc.director.replaceScene(new cc.TransitionFade(0.6, new AppMainScene()));
     },
 
     goStore: function () {
